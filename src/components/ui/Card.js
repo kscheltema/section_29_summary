@@ -5,3 +5,6 @@ function Card(props) {
 }
 
 export default Card;
+//{props.children}
+//prevents a wrapping component swallowing content
+//and holds all this wrapping content
