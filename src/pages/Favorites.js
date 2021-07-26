@@ -21,3 +21,5 @@ function FavoritesPage() {
 }
 
 export default FavoritesPage;
+
+//on reload state is lost need to use server or local storage
