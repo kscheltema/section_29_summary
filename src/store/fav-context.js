@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 const FavContext = createContext({
   favorites: [],
-  totalFav: 0,
+  totalFavorites: 0,
   addFavorite: (favoriteMeetup) => {}, //these pointers used in this component
   removeFavorite: (meetupID) => {}, //is added for auto completion of the IDE
   itemIsFavorite: (meetupID) => {},
